@@ -162,20 +162,23 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
 
-        /*
-         * Package Service Providers...
-         */
-        Laravel\Tinker\TinkerServiceProvider::class,
 
-        /*
-         * Application Service Providers...
-         */
-        sisColegio\Providers\AppServiceProvider::class,
-        sisColegio\Providers\AuthServiceProvider::class,
-        // sisColegio\Providers\BroadcastServiceProvider::class,
-        sisColegio\Providers\EventServiceProvider::class,
-        sisColegio\Providers\RouteServiceProvider::class,
+          /*
+           * Package Service Providers...
+           */
+          Laravel\Tinker\TinkerServiceProvider::class,
+
+          /*
+           * Application Service Providers...
+           */
+          sisColegio\Providers\AppServiceProvider::class,
+          sisColegio\Providers\AuthServiceProvider::class,
+          // sisColegio\Providers\BroadcastServiceProvider::class,
+          sisColegio\Providers\EventServiceProvider::class,
+          sisColegio\Providers\RouteServiceProvider::class,
+
 
     ],
 
@@ -225,6 +228,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
 
     ],
 

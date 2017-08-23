@@ -7,7 +7,7 @@
 <div class="login-form" id="login-form">
   <div class="pre">
     <h2>Bienvenido</h2>
-    <span>Ingrese sus datos por favor.</span>
+    <span>Ingrese sus datos por favor  </span>
   </div>
   <div class="row-dyn">
     <input type="text" id="username" placeholder="Usuario o Correo Electronico" autofocus>
